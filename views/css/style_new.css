@@ -1,0 +1,202 @@
+.card {
+	width: 150px;
+	height: 150px;
+	margin: 15px;
+	position: relative;
+	min-width: 100px;
+	background: #000;
+}
+.card:hover .overlayer {
+	visibility: visible;
+}
+.card:hover{
+	background-color: #252525;
+}
+.card img {
+	width: 100%;
+	height: 100%;
+}
+.card .title  {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	margin-top: 180px;
+}
+
+.card .title a {
+	top: -175px;
+	color: #fff;
+	position: relative;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.card .overlayer {
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	visibility: hidden;
+}
+
+.overlayer .fa-play-circle {
+	color: #fff;
+	font-size: 73px;
+	margin-top: 53px;
+	transition: 100ms ease-in-out;
+}
+.fa-play-circle:hover {
+	transform: scale(1.1);
+}
+
+.playcard{
+	margin: 18px;
+	padding: 10px;
+}
+
+.songinfo{
+	gap: 5px;
+	display: flex;
+	
+	border: 2px solid green;
+	border-radius: 13px;
+	padding: 8px;
+}
+
+.songname{
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	align-items: center;
+}
+
+
+
+.songinfo img{
+	width: 40px;
+	height: 40px;
+	/* height: 100%;
+	width: 100%; */
+}
+
+.topbar {
+	width: 20vw;
+	display: flex;
+	justify-content: space-between;
+	background-color: #101010;
+	padding: 14px 30px;
+	
+  }
+  .topbar .prev-next-buttons button {
+	color: #7a7a7a;
+	cursor: not-allowed;
+	width: 34px;
+	height: 34px;
+	border-radius: 100%;
+	font-size: 18px;
+	border: 0px;
+	background-color: #090909;
+	margin-right: 10px;
+  }
+  .topbar .navbar {
+	display: flex;
+	align-items: center;
+	
+  }
+  .topbar .navbar ul {
+	list-style: none;
+  }
+ 
+  .topbar .navbar button {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 14px 30px;
+	border: 0px;
+	border-radius: 40px;
+	cursor: pointer;
+	margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+	background-color: #f2f2f2;
+  }
+
+  .library {
+    background-color: #121212;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+    border-radius: 0.5rem;
+    height: 80.2%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+}
+
+.lib-option img {
+    height: 1.25rem;
+}
+
+.icons {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.icons i {
+    margin-left: 1.5rem;
+    opacity: 0.6;
+}
+
+/* Pointer Class */
+.pointer {
+    cursor: pointer;
+}
+
+/* Transition Class */
+.transition {
+    transition: all 0.3s;
+}
+
+/* Hover Class */
+.hover:hover {
+    opacity: 1;
+}
+
+.box {
+    background-color: #232323;
+    height: fit-content;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 1.4rem 0.5rem;
+    padding: 0.7rem 1.3rem 1.2rem 1.3rem;
+	width: 17vw;
+
+}
+
+.box-p1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    width: fit-content;
+    margin-top: 0.6rem;
+}
